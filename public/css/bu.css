@@ -1,0 +1,246 @@
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+  background: #f1f1f1;
+}
+
+.product-item {
+  padding: 15px;
+  background: #fff;
+  margin-top: 20px;
+  position: relative;
+}
+.product-item:hover {
+  box-shadow: 5px 5px rgba(234, 234, 234, 0.9);
+}
+.product-item:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  line-height:0;
+}
+.sticker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 63px;
+  height: 63px;
+}
+.sticker-new {
+  background: url(http://keenthemes.com/assets/bootsnipp/new.png) no-repeat;
+  left: auto;
+  right: 0;
+}
+.pi-img-wrapper {
+  position: relative;
+}
+.pi-img-wrapper div {
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.product-item:hover>.pi-img-wrapper>div {
+  display: block;
+}
+.pi-img-wrapper div .btn {
+  padding: 3px 10px;
+  color: #fff;
+  border: 1px #fff solid;
+  margin: -13px 5px 0;
+  background: transparent;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  line-height: 1.4;
+  font-size: 12px;
+}
+.product-item .btn:hover {
+  background: #e84d1c;
+  border-color: #c8c8c8;
+}
+
+.product-item h3 {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.product-item h1 {
+  font-size: 10px;
+  font-weight: 300;
+}
+.product-item h3 a {
+  bu_name
+  color: #3e4d5c;
+}
+.product-item h3 a:hover {
+  color: #E02222;
+}
+.pi-price {
+  color: #e84d1c;
+  font-size: 18px;
+  float: left;
+  padding-top: 1px;
+}
+.product-item .add2cart {
+  float: right;
+  color: white;
+  border: 1px #ededed solid;
+  padding: 3px 6px;
+  text-transform: uppercase;
+}
+        /***
+User Profile Sidebar 
+***/
+
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+  font-size: 30px
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 17px; 
+   font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-right: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+
+.form-control{
+  padding: 0px;
+  font-size: 15px;
+}
+
+.breadcrumb{
+  background-color: white;
+
+
+}
+
+.sear {
+  margin-right: -25px;
+  
+  margin-bottom: 20px;
+}
+
+
+
+
+.buinfo{
+
+
+font-size: 20px;
+
+  
+}
+
+
+
+
+
+
